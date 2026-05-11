@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <link rel="icon" href="./logo/tablogo.png" type="x-icon">
+    
+        <title>Password Manager</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./animation.css">
+    </head>
+    
+    <body>
+        <div id="background"></div>
+        <div class="con">
+            <img src="./logo/logo2.png" id="logo2">
+            <img src="./logo/logo.png" id="logo" class="animate">
+
+            <p class="header">Password Manager</p>
+    
+            <input type="password" placeholder="Pass Key" value="" class="input" id="input1">
+            <input type="text" placeholder="App/Website name" value="" class="input" id="input2">
+            
+            <select id="version" class="input" default>
+                <option value="dummy">Dummy Hash (Demo)</option>
+                <option value="md5">MD5</option>
+                <option value="dummy_md5">Dummy &rarr; MD5</option>
+            </select>
+
+            <div class="choose">
+                <input type="submit" class="submit" value="Go!" id="go">
+                <p id="resultText">Result:</p>
+                <p id="result"></p>
+                <input type="text" id="resultInput">
+            </div>
+        </div>
+    
+        <script src="./js/crypto-js.min.js"></script> 
+        <script src="./js/clipboard.js"></script> 
+        <script src="./js/dummyHash.js"></script> 
+        <script src="./js/animation.js"></script>
+        <script src="./js/main.js"></script> 
+    </body>
+</html>

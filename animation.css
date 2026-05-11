@@ -1,0 +1,74 @@
+@keyframes open_lock{
+    0% {
+        transform: rotate(0deg);
+        margin-left:43%;
+        
+    }
+
+
+
+    25% {
+        transform: rotate(180deg);
+        margin-left:calc(43% + 20px);
+    }
+
+    75% {
+        transform: rotate(180deg);
+        margin-left:calc(43% + 20px);
+    }
+
+
+    100% {
+        transform: rotate(0deg);
+        margin-left:43%;
+    }
+}
+
+
+.animateLogo{
+    animation: open_lock 0.8s linear;
+}
+
+
+
+
+@keyframes invalidInput{
+    0% {
+        width:60%;
+        
+    }
+
+
+    40% {
+        color: red;
+        border-bottom:1px solid red;
+        width:60%;
+    }
+
+
+    60% {
+        color: red;
+        border-bottom:1px solid red;
+        width:0%;
+    }
+
+    61% {
+        color: white;
+        border-bottom:1px solid rgba(255, 255, 255, 0.698);
+    }
+    
+
+    80% {
+        width:0%;
+    }
+
+
+    100% {
+        width:60%;
+    }
+}
+
+
+.invalidInput{
+    animation: invalidInput 1.5s linear;
+}
