@@ -31,7 +31,7 @@ This project uses an **Algorithmic (Stateless)** model. Instead of storing passw
 * **Zero-Footprint:** You can generate your passwords on any device, entirely offline, as long as you have the code and your Master Key.
 
 ### Cons
-* **Rigidity:** It is difficult to change a single password if a specific site is breached. Changing your "Netflix" password would require changing your Master Key (altering all passwords) or adding a versioning suffix (e.g., "Netflix_v2").
+* **Rigidity:** It is difficult to change a single password. Changing your "Netflix" password would require changing your Master Key (altering all passwords) or adding a versioning suffix (e.g., "Netflix_v2") which could get messy.
 * **Site Constraints:** Websites have varying rules for length and special characters. Adapting a pure algorithm to these arbitrary constraints requires manual handling.
 
 ---
