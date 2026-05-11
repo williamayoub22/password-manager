@@ -1,6 +1,0 @@
-slice at cyclic position
-
-turn pass into numbers
-
-check box for special char
-and a list
