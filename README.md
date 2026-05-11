@@ -1,3 +1,6 @@
+<img width="2560" height="1175" alt="image" src="https://github.com/user-attachments/assets/e1886cbe-0091-46b1-ad28-5a4e2d7385c5" />
+
+
 # Algorithmic Password Manager (Concept Demo)
 
 This project is a demonstration of a **Stateless** or **Algorithmic** password manager. It is designed to provide a consistent, reproducible way to generate passwords without relying on a central database or cloud storage.
